@@ -1,0 +1,46 @@
+﻿.register-block {
+	background-color: rgb(255,175,10);
+	padding: 5px;
+	width: 500px;
+	margin-right: auto;
+	margin-left: auto;
+	box-shadow: 0px 2px 6px rgba(0,0,0,0.5);
+}
+
+.register-block-d {
+	box-shadow: none;
+	background-color: rgb(40,40,50);
+	padding: 50px;
+	padding-bottom: 15px;
+	padding-top: 25px;
+	font-family: 'Montserrat', sans-serif;
+	color: rgb(190,190,200);
+	font-size: 16px;
+}
+
+.register-block-d input {
+	background-color: rgb(190,190,200);
+	box-shadow: inset 1px 1px 4px rgba(0,0,0,0.8);
+	border: none;
+	width: 100%;
+	border-radius: 5px;
+	padding: 5px;
+	padding-left: 10px;
+	font-size: 16px;
+	color: rgb(25,25,35);
+	margin-bottom: 25px;
+}
+
+.register-block-d button {
+	background-color: rgb(255,175,10);
+	color: rgb(25,25,35);
+	padding: 12px;
+	border: none;
+	border-radius: 5px;
+	margin-top: 15px;
+}
+
+body {
+	background: url(../images/regbg.jpg) no-repeat;
+	background-size: 100%;
+}
