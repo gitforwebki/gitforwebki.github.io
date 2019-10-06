@@ -1,0 +1,101 @@
+﻿.navbar
+{
+	box-shadow: 0 1px 4px rgba(0,0,0,0.4);
+	background-color: rgb(45, 45, 55);
+	height: 50px;
+	margin: 0 auto;
+	border-radius: 0px;
+	position: fixed;
+	z-index: 999;
+	width: 100%;
+}
+
+.navbar-nav a, .navbar a{
+  color: rgb(190,190,200);
+  font-family: 'Montserrat', sans-serif;
+}
+
+.dropdown:hover > .dropdown-menu { 
+  display: block;
+}
+
+.dropdown-menu { 
+    background-color: rgb(45, 45, 55);
+    box-shadow: none;
+    border-radius: 0px;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+} 
+
+.dropdown-menu a{ 
+	color: white !important;
+}
+
+.nav a:hover{
+	background-color: rgb(30, 30, 40) !important;
+}
+
+.open a{
+	background-color: rgba(0,0,0,0.33) !important;
+}
+
+body
+{
+	background-color: rgb(25, 25, 35);
+}
+
+.separator{
+	height: 49px;
+	width: 1px;
+	background-color: rgb(25, 25, 35);
+}
+
+a{
+	text-decoration: none !important;
+}
+
+.logo{
+	font-size: 16px;
+}
+
+.dt-button{
+	margin-left: 12px;
+	margin-top: 14px;
+	border-radius: 100px;
+	height: 22px;
+	width: 50px;
+	background-color: rgb(255,175,10);
+	box-shadow: inset 1px 1px 4px rgba(0,0,0,0.8);
+	padding-top: 3px;
+}
+
+.icon{
+	color: rgb(190,190,200);
+	font-size: 20px;
+	margin-left: 14px;
+	margin-top: 14px;
+}
+
+.btn-circle{
+	width: 16px;
+	height: 16px;
+	border-radius: 100px;
+	box-shadow: 1px 1px 4px rgba(0,0,0,0.7);
+	background-color: rgb(30, 30, 40);
+	margin-left: 30px;
+}
+
+#reg-button a{
+	background-color: rgb(255,175,10); 
+	color: rgb(30,30,40);
+}
+
+#reg-button a:hover{
+	background-color: rgb(220,150,0) !important;
+}
+
+.nav-space{
+	height: 49px;
+	width: 100%;
+}
