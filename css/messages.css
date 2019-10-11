@@ -1,0 +1,180 @@
+﻿#contacts {
+	width: 33%;
+	float: left;
+}
+
+#messages {
+	width: 67%;
+	float: right;
+}
+
+.contact {
+	width: 100%;
+	background-color: rgb(45,45,55);
+	border-bottom: 1px solid rgb(25,25,35);
+	padding: 10px;
+	font-family: 'Montserrat', sans-serif;
+	float: left;
+	box-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+}
+
+#search {
+	width: 100%;
+	padding: 10px;
+	color: rgb(190,190,200);
+	font-size: 20px;
+	border-right: 1px solid rgb(25,25,35);
+	border-bottom: 1px solid rgb(25,25,35);
+	background-color: rgb(45,45,55);
+}
+
+#search input {
+	width: calc(100% - 30px);
+	border: none;
+	border-radius: 5px;
+	background-color: rgb(30,30,40);
+	margin-left: 10px;
+	font-size: 14px;
+	color: rgb(190,190,200);
+	font-family: 'Montserrat', sans-serif;
+	padding: 5px;
+}
+
+.contact-name {
+	color: rgb(255,175,10);
+	font-size: 16px;
+	margin-top: 5px;
+	margin-bottom: 7px;
+}
+
+.contact img {
+	height: 60px;
+	border-radius: 60px;
+	float: left;
+}
+
+.cont-right {
+	float: right;
+	width: calc(100% - 80px);
+	color: rgb(190,190,200);
+}
+
+.cr-left {
+	float: left;
+}
+
+.c-time {
+	float: right;
+	color: rgb(120,120,130);
+}
+
+#m-title {
+	font-family: 'Montserrat', sans-serif;
+	color: rgb(255,175,10);
+	font-size: 21px;
+	width: 100%;
+	padding: 10px;
+	padding-top: 11px;
+	padding-left: 15px;
+	float: right;
+	box-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+	background-color: rgb(45,45,55);
+}
+
+#contact-blank {
+	box-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+	width: 100%;
+	background-color: rgb(35,35,45);
+	float: left;
+}
+
+.message-box {
+	width: 100%;
+	float: left;
+}
+
+.message-box img{
+	height: 50px;
+	border-radius: 50px;
+	float: left;
+	margin-left: 20px;
+	margin-top: 85px;
+}
+
+.message {
+	width: calc(50% - 50px);
+	margin-top: 30px;
+	box-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+	padding: 20px;
+	color: rgb(190,190,200);
+	font-family: 'Montserrat', sans-serif;
+	padding-bottom: 5px;
+	padding-right: 15px;
+	padding-top: 15px;
+}
+
+.message-left {
+	float: left;
+	margin-left: 20px;
+	background-color: rgb(45, 45, 55);
+	border-radius: 10px 10px 10px 0;
+}
+
+.message-right {
+	float: right;
+	margin-right: 20px;
+	background-color: rgb(85, 85, 95);
+	border-radius: 10px 10px 0 10px;
+}
+
+.m-time {
+	color: rgb(160,160,170);
+	float: right;
+	font-size: 11px;
+}
+
+.m-content {
+	float: left;
+	width: 100%;
+}
+
+.m-name {
+	float: left;
+	width: 100%;
+	color: rgb(255,175,10);
+}
+
+#m-enter {
+	height: 100px;
+	background-color: rgb(45, 45, 55);
+	float: left;
+	width: 100%;
+	border-left: 1px solid rgb(25,25,35);
+	border-top: 1px solid rgb(25,25,35);
+	padding: 10px;
+}
+
+#m-enter textarea{
+	height: 100%;
+	width: calc(100% - 110px);
+	border-radius: 5px;
+	background-color: rgb(30,30,40);
+	color: rgb(120, 120, 130);
+	font-family: 'Montserrat', sans-serif;
+	border: none;
+	resize: none;
+	padding: 10px;
+}
+
+#b-enter {
+	height: 50px;
+	width: 100px;
+	color: rgb(25, 25, 35);
+	font-family: 'Montserrat', sans-serif;
+	background-color: rgb(255,175,10);
+	border-radius: 5px;
+	float: right;
+	padding: 10px;
+	padding-top: 15px;
+	margin-top: 15px;
+}

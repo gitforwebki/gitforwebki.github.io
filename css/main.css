@@ -1,7 +1,7 @@
 ﻿#bg-fam{
 	background: url(../images/family.jpg) no-repeat;
 	background-size: 100%;
-	height: 900px;
+	height: 1000px;
 	width: 100%;
 	z-index: -999;
 }
@@ -94,6 +94,7 @@
 	width: 100%;
 	background-color: rgb(25,25,35);
 	box-shadow: none;
+	padding-top: 45px;
 }
 
 @keyframes hacker-app {

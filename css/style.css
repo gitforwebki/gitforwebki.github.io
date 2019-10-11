@@ -45,10 +45,14 @@ body
 	background-color: rgb(25, 25, 35);
 }
 
-.separator{
+.separator-r{
 	height: 49px;
-	width: 1px;
-	background-color: rgb(25, 25, 35);
+	border-right: 1px solid rgb(25,25,35);
+}
+
+.separator-l{
+	height: 49px;
+	border-left: 1px solid rgb(25,25,35);
 }
 
 a{
