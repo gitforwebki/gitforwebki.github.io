@@ -1,46 +1,69 @@
 ﻿.register-block {
-	background-color: rgb(255,175,10);
-	padding: 5px;
-	width: 500px;
-	margin-right: auto;
-	margin-left: auto;
-	box-shadow: 0px 2px 6px rgba(0,0,0,0.5);
-}
-
-.register-block-d {
 	box-shadow: none;
-	background-color: rgb(40,40,50);
+	background-color: rgb(35,35,45);
 	padding: 50px;
 	padding-bottom: 15px;
 	padding-top: 25px;
 	font-family: 'Montserrat', sans-serif;
 	color: rgb(190,190,200);
 	font-size: 14px;
+	box-shadow: 0px 2px 6px rgba(0,0,0,0.5);
 }
 
-.register-block-d input {
-	background-color: rgb(190,190,200);
-	box-shadow: inset 1px 1px 2px rgba(0,0,0,0.5);
+.register-block input {
+	background-color: rgb(45,45,55);
 	border: none;
-	width: 100%;
+	width: 90%;
 	border-radius: 5px;
-	padding: 5px;
+	padding: 10px;
 	padding-left: 10px;
-	font-size: 14px;
-	color: rgb(25,25,35);
-	margin-bottom: 25px;
+	font-size: 12px;
+	color: rgb(190,190,200);
+	outline: none;
 }
 
-.register-block-d button {
+.register-block button {
 	background-color: rgb(255,175,10);
 	color: rgb(25,25,35);
 	padding: 12px;
 	border: none;
 	border-radius: 5px;
 	margin-top: 15px;
+	padding-left: 16px;
+	padding-right: 16px;
 }
 
 body {
-	background: url(../images/regbg.jpg) no-repeat;
-	background-size: 100%;
+	/*background: url(../images/regbg.jpg) no-repeat;
+	background-size: 100%;*/
+}
+
+.reg-field {
+	text-align: center;
+}
+
+#reg-table {
+	width: 700px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.name-td {
+	width: 140px;
+}
+
+.name-td-in {
+	width: 60px;
+}
+
+.content-td {
+	width: 100%;
+}
+
+.register-block input::placeholder {
+  color: rgb(120,120,130);
+}
+
+#reg-table tr{
+	height: 70px;
 }

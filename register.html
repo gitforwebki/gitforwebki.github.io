@@ -41,23 +41,66 @@
 	  </div>
 	</nav>
 	<div class="nav-space"></div>
-	<div style="height: 75px;"></div>
-	<div class="register-block">
-		<div class="register-block-d">
-			<p style="color: rgb(255, 175, 10); text-align: center; margin-bottom: 25px; font-size: 22px;">РЕГИСТРАЦИЯ</p>
-			Логин:
-			<input type="text" name="text" placeholder="Логин">
-			Почта:
-			<input type="text" name="text" placeholder="Почта">
-			Пароль:
-			<input type="text" name="text" placeholder="Пароль">
-			Повторите пароль:
-			<input type="text" name="text" placeholder="Повторите пароль">
-			Номер паспорта:
-			<input type="text" name="text" placeholder="Номер паспорта">
-			<p style="text-align: center;"><button>ЗАРЕГИСТРИРОВАТЬСЯ</button></p>
-			<a href="signin.html" style="font-size: 12px; color: rgb(190, 190, 200);">Уже зарегестрированны?</a>
-		</div>
+	<div class="d-block" style="padding: 30px; padding-right: 50px;">
+		<table>
+			<tbody>
+				<tr>
+					<td>
+						<img src="images/kitten.png" height="200">
+					</td>
+					<td style="padding: 50px;">
+						<span style="color: rgb(255,175,10);">Margelet</span> имеет большую и динамично развивающаяся аудитория, которых объдиняет только одно. Они все безумно любят котиков. Если вдруг вы не любите этих маленьких и пужистых комочков любви - вам здесь не место.
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+	<div class="d-block register-block">
+		<p style="color: rgb(255, 175, 10); text-align: center; margin-bottom: 25px; font-size: 22px;">Регистрация в Margelet</p>
+		<table id="reg-table">
+			<tr>
+				<td class="name-td">
+					Логин: 
+				</td class="content-td">
+				<td>
+					<p class="reg-field"><input type="text" name="text" placeholder="Логин"></p>
+				</td>
+			</tr>
+			<tr>
+				<td class="name-td">
+					Почта: 
+				</td class="content-td">
+				<td> 
+					<p class="reg-field"><input type="text" name="text" placeholder="Почта"></p>
+				</td>
+			</tr>
+			<tr>
+				<td class="name-td">
+					Пароль: 
+				</td class="content-td">
+				<td>
+					<p class="reg-field"><input type="password" name="text" placeholder="Пароль"></p>
+				</td>
+			</tr>
+			<tr>
+				<td class="name-td">
+					Повторите пароль: 
+				</td class="content-td">
+				<td>
+					<p class="reg-field"><input type="password" name="text" placeholder="Повторите пароль"></p>
+				</td>
+			</tr>
+			<tr>
+				<td class="name-td">
+					Номер паспорта: 
+				</td class="content-td">
+				<td>
+					<p class="reg-field"><input type="text" name="text" placeholder="Номер паспорта"></p>
+				</td>
+			</tr>
+		</table>
+		<p style="text-align: center;"><button>ЗАРЕГИСТРИРОВАТЬСЯ</button></p>
+		<a href="signin.html" style="font-size: 12px; color: rgb(160, 160, 170);">Уже зарегестрированны?</a>
 	</div>
     <script src="js/bootstrap.min.js"></script>
   </body>

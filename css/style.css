@@ -70,7 +70,7 @@ a{
 	height: 22px;
 	width: 50px;
 	background-color: rgb(255,175,10);
-	box-shadow: inset 1px 1px 4px rgba(0,0,0,0.8);
+	box-shadow: inset 1px 1px 1px rgba(0,0,0,0.5);
 	padding-top: 3px;
 }
 
@@ -85,7 +85,7 @@ a{
 	width: 16px;
 	height: 16px;
 	border-radius: 100px;
-	box-shadow: 1px 1px 4px rgba(0,0,0,0.7);
+	box-shadow: 1px 1px 1px rgba(0,0,0,0.5);
 	background-color: rgb(30, 30, 40);
 	margin-left: 30px;
 }

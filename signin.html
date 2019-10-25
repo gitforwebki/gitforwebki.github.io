@@ -41,17 +41,28 @@
 	  </div>
 	</nav>
 	<div class="nav-space"></div>
-	<div style="height: 75px;"></div>
-	<div class="register-block">
-		<div class="register-block-d">
-			<p style="color: rgb(255, 175, 10); text-align: center; margin-bottom: 25px; font-size: 22px;">ВХОД</p>
-			Логин:
-			<input type="text" name="text" placeholder="Логин">
-			Пароль:
-			<input type="text" name="text" placeholder="Пароль">
-			<p style="text-align: center;"><button>ВОЙТИ</button></p>
-			<p style="font-size: 12px;">Забыли пароль?</p>
-		</div>
+	<div class="d-block register-block">
+		<p style="color: rgb(255, 175, 10); text-align: center; margin-bottom: 25px; font-size: 22px;">Войти в учетную запись Margelet</p>
+		<table id="reg-table">
+			<tr>
+				<td class="name-td-n">
+					Логин: 
+				</td class="content-td">
+				<td>
+					<p class="reg-field"><input type="text" name="text" placeholder="Логин"></p>
+				</td>
+			</tr>
+			<tr>
+				<td class="name-td-in">
+					Пароль: 
+				</td class="content-td">
+				<td>
+					<p class="reg-field"><input type="password" name="text" placeholder="Пароль"></p>
+				</td>
+			</tr>
+		</table>
+		<p style="text-align: center;"><button>ВОЙТИ</button></p>
+		<a href="signin.html" style="font-size: 12px; color: rgb(160, 160, 170);">Забыли пароль?</a>
 	</div>
     <script src="js/bootstrap.min.js"></script>
   </body>
